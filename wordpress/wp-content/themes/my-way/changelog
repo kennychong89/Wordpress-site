@@ -1,0 +1,25 @@
+    version 2.0.4
+    ----------------------------------------------------------------------------
+    fixed issues "Set featured Image"
+	
+    version 2.0.6
+    ----------------------------------------------------------------------------
+    fixed	: image overflow content
+
+    version 2.0.11
+    ----------------------------------------------------------------------------
+    removed     : function from ahtml class "myThemesDocs"
+    removed     : options "Tracking Codes"
+    added       : myThem.es links ( support, contact, ... )
+    fixed       : topper menu issues
+    fixed       : php 5.4 issues
+    changed     : screenshot ( 600 x 450 )
+	
+	version 2.0.12
+	----------------------------------------------------------------------------
+	added		: widgets : newsletter, flickr photo gallery
+	added		: default content ( sidebar, social links )
+	added 		: option "Hide default content from sidebar"
+	changed 	: blog list view : the_excerpt() changed with the_content( )
+	
+    

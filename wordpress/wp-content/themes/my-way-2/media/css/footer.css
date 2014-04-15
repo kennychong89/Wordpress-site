@@ -1,0 +1,71 @@
+/* 
+    Document    : footer
+    Created on  : 20.07.2012, 12:23:11
+    Author      : myThemes
+    Version     : 0.0.1
+    Description : Css rules for footer.css
+    Author URI  : http://mythem.es
+*/
+
+.b.footer-mask{
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.b.footer-corner .container.l1012{
+    background-image: url( '../images/footer.top.bkg.png' );
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 33px;
+    display: block;
+}
+
+.b.footer-corner .container{
+    height: 33px;
+}
+
+div.b.footer-corner div.corner{
+    height: 103px;
+    position:absolute;
+    width: 6px;
+    margin-top: -103px;
+    margin-bottom: 103px;
+    display: block;
+}
+
+div.b.footer-corner div.corner-left{
+    background: url( '../images/corner.footer.png' ) no-repeat 0px 0px;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+div.b.footer-corner div.corner-right{
+    background: url( '../images/corner.footer.png' ) no-repeat -6px 0px;
+    margin-left: 1006px;
+    margin-right: 0px;
+}
+
+/* COPYRIGHT */
+.b.footer-copyright{
+    background-image: url( '../images/footer.copyright.bkg.png' );
+    height:36px;
+}
+
+.b.footer-copyright p{
+    color:#7e7e7e;
+    font-weight:normal;
+    font-size: 10px;
+    line-height: 7px;
+    margin-bottom: 15px;
+    margin-top: 14px;
+    text-transform: uppercase;
+}
+
+.b.footer-copyright p a{
+    color:#cdcdcd;
+    text-decoration: none;
+}
+
+.b.footer-copyright p a:hover{
+    color:#ffffff;
+}

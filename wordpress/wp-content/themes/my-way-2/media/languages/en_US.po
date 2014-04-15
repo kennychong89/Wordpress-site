@@ -1,0 +1,693 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: my-way/cfg/templates/author-box.php:7
+msgid "About"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Add custom css"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/static.php:1
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Additional Sidebar"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/static.php:1
+msgid "Additional Sidebar - is not used by default, but you can use it on different pages or posts, from individual page/post - myThemes settings."
+msgstr ""
+
+#. Text in function
+#: my-way/fw/mythemes.class.php:284
+msgid "Additional custom sidebar"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/mythemes.class.php:284
+#: my-way/category.php:13
+msgid "Archive by category"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/mythemes.class.php:284
+msgid "Articles posted by "
+msgstr ""
+
+#. Text in function
+#: my-way/fw/mythemes.class.php:284
+msgid "Blog"
+msgstr ""
+
+#. Text in echo
+#: my-way/index.php:15
+msgid "Blog Page"
+msgstr ""
+
+#. Text in function
+#: my-way/archive.php:28
+msgid "Blog archives"
+msgstr ""
+
+#. Text in echo
+#: my-way/front-page.php:59
+msgid "Blogging page"
+msgstr ""
+
+#. Text in echo
+#: my-way/cfg/templates/post/author-box.php:1
+msgid "By"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/layout.class.php:1
+msgid "Categories"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/templates/post/bottom-meta.php:1
+msgid "Category"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/admin/ahtml.class.php:1
+msgid "Choose File"
+msgstr ""
+
+#. Text in function
+#: my-way/comments.php:1
+msgid "Comment"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/templates/post/top-meta.php:1
+msgid "Comment(s)"
+msgstr ""
+
+#. Text in function
+#: my-way/comments.php:1
+#: my-way/cfg/templates/post/top-meta.php:1
+msgid "Comments"
+msgstr ""
+
+#. Text in function
+#: my-way/archive.php:28
+msgid "Daily archives"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Default layout"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Default sidebar"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/admin/ahtml.class.php:1
+msgid "Disable"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/admin/ahtml.class.php:1
+msgid "Drop Settings"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/admin/ahtml.class.php:1
+msgid "Drop item"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/layout.class.php:1
+#: my-way/fw/plg/my_widgets/my_wdg_newsletter.php:37
+msgid "E-mail"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/templates/post/top-meta.php:1
+msgid "Edit"
+msgstr ""
+
+#. Text in function
+#: my-way/comments.php:1
+msgid "Email*"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/admin/ahtml.class.php:1
+msgid "Enable"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/admin/ahtml.class.php:1
+msgid "Error - options were not changed. contact support from "
+msgstr ""
+
+#. Text in function
+#: my-way/fw/mythemes.class.php:284
+msgid "Error 404"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Error, please select \"ico\" type media file"
+msgstr ""
+
+#. Text in function
+#: my-way/front-page.php:78
+msgid "Error, sorry not fount page"
+msgstr ""
+
+#. Text in echo
+#: my-way/fw/plg/my_widgets/my_wdg_flickr.php:65
+msgid "Flickr ID"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/layout.class.php:1
+msgid "Flickr Photogallery"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/plg/my_widgets/my_wdg_flickr.php:82
+msgid "Flickr Photos"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/plg/my_widgets/my_wdg_flickr.php:82
+msgid "Flickr Photos Gallery"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/resources/boxes.php:1
+msgid "Fourth Sidebar"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/static.php:1
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Front Page Sidebar"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/static.php:1
+msgid "Front Page Sidebar - is used by default on front page ( if not is set to show a page for front page )."
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Front page layout"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Front page sidebar"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "General Settings"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/plg/my_widgets/my_wdg_newsletter.php:43
+msgid "Google FeedBurner ID"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/plg/my_widgets/my_wdg_newsletter.php:1
+msgid "Google FeedBurner Newsletter"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Header Settings"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/static.php:1
+msgid "Header base Menu"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Hide default content from sidebar"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/mythemes.class.php:284
+msgid "Home"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "If not is set custom layout, will be used default layout."
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "If not is set front page layout, will be used default layout."
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "If not is set single page layout, will be used default layout."
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "If not is set single post layout, will be used default layout."
+msgstr ""
+
+#. Text in echo
+#: my-way/fw/plg/my_widgets/my_wdg_flickr.php:78
+msgid "Latest Photo"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Layout Settings"
+msgstr ""
+
+#. Text in function
+#: my-way/comments.php:1
+msgid "Leave a reply"
+msgstr ""
+
+#. Text in function
+#: my-way/comments.php:1
+msgid "Log out of this account"
+msgstr ""
+
+#. Text in function
+#: my-way/comments.php:1
+msgid "Log out?"
+msgstr ""
+
+#. Text in function
+#: my-way/comments.php:1
+msgid "Logged in as"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Logo left margin ( px )"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Logo top margin ( px )"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/static.php:1
+#: my-way/cfg/admin/resources/boxes.php:1
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Main Sidebar"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/static.php:1
+msgid "Main Sidebar - is used by default for next templates: 404, Archive, Author, Category, Search and Tag."
+msgstr ""
+
+#. Text in function
+#: my-way/fw/mythemes.class.php:284
+msgid "Main sidebar"
+msgstr ""
+
+#. Text in function
+#: my-way/archive.php:28
+msgid "Monthly archives"
+msgstr ""
+
+#. Text in function
+#: my-way/comments.php:1
+msgid "Name*"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/plg/my_widgets/my_wdg_newsletter.php:1
+msgid "Newsletter"
+msgstr ""
+
+#. Text in echo
+#: my-way/404.php:13
+msgid "Not found results"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/admin/ahtml.class.php:1
+msgid "Not fount items"
+msgstr ""
+
+#. Text in echo
+#: my-way/fw/plg/my_widgets/my_wdg_flickr.php:70
+msgid "Number of photos"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Others Settings"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/mythemes.class.php:284
+msgid "Page"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/mythemes.class.php:284
+msgid "Page %s"
+msgstr ""
+
+#. Text in function
+#: my-way/single.php:15
+msgid "Pages:"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/plg/my_widgets/my_wdg_flickr.php:82
+msgid "Photo Gallery"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Please select 'ico' type media file. Make sure you allow uploading 'ico' type in General Settings -> Upload file types."
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/static.php:1
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Post Sidebar"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/static.php:1
+msgid "Post Sidebar - is used by default for single post."
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/templates/post/bottom-meta.php:1
+msgid "Posted in"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/mythemes.class.php:284
+#: my-way/tag.php:13
+msgid "Posts tagged"
+msgstr ""
+
+#. Text in echo
+#: my-way/fw/plg/my_widgets/my_wdg_flickr.php:77
+msgid "Random Photo"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/templates/view/blog.php:23
+msgid "Read More"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/admin/ahtml.class.php:1
+msgid "Remove data from this field"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/mythemes.class.php:284
+#: my-way/search.php:13
+msgid "Search results for"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/resources/boxes.php:1
+msgid "Second Sidebar"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/resources/boxes.php:1
+msgid "Select Layout"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Select custom color for your site"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/resources/boxes.php:1
+msgid "Select sidebar"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Set behance profile page URL"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Set facebook user profile or page URL"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Set stumble profile page URL"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Set twitter profile page URL"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Set vimeo profile page URL"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Set yahoo profile page URL"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/resources/boxes.php:1
+msgid "Show title"
+msgstr ""
+
+#. Text in echo
+#: my-way/fw/plg/my_widgets/my_wdg_flickr.php:75
+msgid "Showing Method"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Single page layout"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Single page sidebar"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Single post layout"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Single post sidebar"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Social Settings"
+msgstr ""
+
+#. Text in function
+#: my-way/comments.php:1
+msgid "Submit comment"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/layout.class.php:1
+msgid "Subscribe Newsletter"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/sett.class.php:1
+msgid "Successful disabled option!"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/sett.class.php:1
+msgid "Successful enabled option!"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/admin/ahtml.class.php:1
+msgid "Successful update options!"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/layout.class.php:1
+msgid "Tag"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/layout.class.php:1
+#: my-way/cfg/templates/post/bottom-meta.php:1
+msgid "Tags"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Text for right side of header"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/pages.php:1
+msgid "Theme Options"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/resources/boxes.php:1
+msgid "Third Sidebar"
+msgstr ""
+
+#. Text in echo
+#: my-way/fw/plg/my_widgets/my_wdg_flickr.php:60
+#: my-way/fw/plg/my_widgets/my_wdg_newsletter.php:43
+msgid "Title"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/static.php:1
+msgid "Top Menu"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/mythemes.class.php:284
+msgid "Twitter Username"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/admin/ahtml.class.php:1
+#: my-way/fw/admin/main.php:1
+msgid "Update Settings"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Upload your custom favicon"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Upload your custom logo"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Use Demo color Piker"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Use RSS feed on your site"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/resources/boxes.php:1
+msgid "Use custom layout"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "Use social icons in right side of header"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/admin/main.php:1
+msgid "Version"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/layout.class.php:1
+msgid "View all posts filed under"
+msgstr ""
+
+#. Text in echo
+#: my-way/404.php:17
+msgid "We apologize but this page, post or resource does not exist or can not be found. Perhaps it is necessary to change the call method to this page, post or resource."
+msgstr ""
+
+#. Text in function
+#: my-way/comments.php:1
+msgid "Website"
+msgstr ""
+
+#. Text in function
+#: my-way/archive.php:28
+msgid "Yearly archives"
+msgstr ""
+
+#. Text in echo
+#: my-way/fw/mythemes.class.php:284
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in function
+#: my-way/comments.php:1
+msgid "Your email address will not be published."
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/templates/post/top-meta.php:1
+msgid "at"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "if disable, you can use only text ( ex: phone number )"
+msgstr ""
+
+#. Text in echo
+#: my-way/cfg/templates/post/author-box.php:1
+msgid "me"
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/resources/boxes.php:1
+msgid "myThemes Settings"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/admin/main.php:1
+msgid "options has been updated successfully"
+msgstr ""
+
+#. Text in function
+#: my-way/fw/plg/my_widgets/my_wdg_newsletter.php:1
+msgid "subscribe with FeedBurner"
+msgstr ""
+
+#. Text in echo
+#: my-way/searchform.php:4
+#: my-way/fw/layout.class.php:1
+msgid "type here..."
+msgstr ""
+
+#. Text in function
+#: my-way/cfg/admin/settings/general.php:1
+msgid "you can use HTML tags"
+msgstr ""

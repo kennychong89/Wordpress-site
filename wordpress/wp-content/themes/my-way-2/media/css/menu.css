@@ -1,0 +1,150 @@
+/* 
+    Document    : menu
+    Created on  : 25.06.2012, 18:18:09
+    Author      : myTheme
+    Version     : 0.2
+    Description : css file for navigation menu and drop down menu
+    Author URI  : http://mythem.es
+*/
+
+                                                                                /* TOPPER MENU */
+div.b.topper{
+    height: 30px;
+}
+
+div.b.topper div.container.mytheme-bkg{
+    margin:0px auto;
+    height: 30px;
+}
+div.b.topper div.container div.grid_1_2 ul.children,
+div.b.topper div.container div.grid_1_2 ul.sub-menu{ display: none; }
+div.b.topper div.container div.grid_1_2 > ul,
+div.b.topper div.container div.grid_1_2 > div > ul{
+    height:12px;
+    margin:9px 0px 9px 10px;
+}
+
+div.b.topper div.container div.grid_1_2 > ul li,
+div.b.topper div.container div.grid_1_2 > div > ul li{
+    float: left;
+    border-left: 1px solid #ffffff;
+    height:12px;
+    margin-left:6px;
+}
+
+div.b.topper div.container div.grid_1_2 > ul li:first-child,
+div.b.topper div.container div.grid_1_2 > div > ul li:first-child{
+    border: none;
+    margin-left:0px; 
+}
+
+div.b.topper div.container div.grid_1_2 > ul li a,
+div.b.topper div.container div.grid_1_2 > div > ul li a{
+    color:#ffffff;
+    display: block;
+    font-weight:normal;
+    font-size:11px;
+    height:12px;
+    line-height:12px;
+    margin:0px;
+    padding:0px 0px 0px 6px;
+    text-decoration: none;
+}
+
+div.b.topper div.container div.grid_1_2 > ul li:first-child a,
+div.b.topper div.container div.grid_1_2 > div > ul li:first-child a{
+    padding-left:0px; 
+}
+                                                                                /* GENERAL MENU */
+div.b.my-menu{
+    min-height:160px;
+}
+
+div.b.my-menu div.container{
+    padding: 30px 0px;
+    background:#ffffff;
+    
+}
+div.b.my-menu div.container div.grid_3_4 > ul,
+div.b.my-menu div.container div.grid_3_4 > div > ul{
+    overflow: hidden;
+    height: 100px;
+    float: right;
+    margin-right: 10px;
+}
+div.b.my-menu div.container div.grid_3_4 > ul > li,
+div.b.my-menu div.container div.grid_3_4 > div > ul > li{
+    float: left;
+    height: 22px;
+    padding:39px 15px 39px 15px;
+}
+
+div.b.my-menu div.container div.grid_3_4 > ul > li > a,
+div.b.my-menu div.container div.grid_3_4 > div > ul > li > a{
+    color:#666666;
+    font-weight:normal;
+    font-size: 16px;
+    text-decoration:none;
+    text-transform: uppercase;
+    display: block;
+    line-height: 12px;
+    letter-spacing: 0px;
+}
+div.b.my-menu div.container div.grid_3_4 > ul > li.current-menu-item > a,
+div.b.my-menu div.container div.grid_3_4 > div > ul > li.current-menu-item > a{
+    color:#212121;
+}
+
+div.b.my-menu div.container div.grid_3_4 > ul ul,
+div.b.my-menu div.container div.grid_3_4 > div > ul ul{
+    display: none;
+    width:190px;
+}
+/* SUB MENU */
+div.b.my-menu div.container div.grid_3_4 > ul li:hover > ul,
+div.b.my-menu div.container div.grid_3_4 > div > ul li:hover > ul{
+    display: block;
+    position:absolute;
+    margin-left: 165px;
+    margin-top: -31px;
+    margin-bottom: 31px;
+    z-index: 1000;
+}
+div.b.my-menu div.container div.grid_3_4 > ul > li:hover > ul,
+div.b.my-menu div.container div.grid_3_4 > div > ul > li:hover > ul{
+    display: block;
+    position:absolute;
+    margin-left: -15px;
+    margin-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    z-index: 1000;
+}
+
+div.b.my-menu div.container div.grid_3_4 > ul ul li,
+div.b.my-menu div.container div.grid_3_4 > div > ul ul li{
+    background-image: url("../images/sidebar.li.bkg.png");
+    background-repeat: no-repeat;
+    background-position: -10px 3px;
+    height: auto;
+    margin: 0px 0px 0px 0px;
+    padding:10px 15px 10px 25px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid #EFEFEF;
+    border-top: 3px solid bue;
+    border-bottom: none;
+    -moz-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+div.b.my-menu ul ul li a,
+div.b.my-menu ul ul li a{
+    font-size: 13px;
+    font-weight: 400;
+    color: #666666;
+    height: auto;
+    line-height: 18px;
+    text-transform: none;
+    text-decoration: none;
+}

@@ -1,0 +1,121 @@
+/* 
+    Document    : slideshow
+    Created on  : 02.07.2012, 15:46:06
+    Author      : myThemes
+    Version     : 0.0.2
+    Description : Rules for slideshow elements, next button, prev button, pagination and container.
+    Author URI  : http://mythem.es
+*/
+
+.my-slider, .my-slider .slide,.my-slider .slides_container{
+    height:450px;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.mytheme-border-bottom{
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+.my-slider div.slider-shadow{
+    background: url("../images/slider.shadow.png") no-repeat top center;
+    height:7px;
+    position:absolute;
+    width: 1000px;
+    z-index:50;
+}
+
+div.slides_container div.my-slide-item{
+    height:450px;
+    width:1000px;
+}
+
+div.slide.slides_container{
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.my-slider ul.pagination{
+    display:none;
+    height:5px;
+    list-style: none;
+    margin: 14px auto 0px auto;
+    padding:0px;
+    
+    
+}
+.my-slider ul.pagination li{
+    display: inline-block;
+    height:5px;
+    margin-left: 1px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+}
+
+.my-slider ul.pagination li a{
+    display: block;
+    text-indent:-100px;
+    overflow: hidden;
+}
+
+.my-slider ul.pagination li:first-child{
+    margin-left: 0px;
+}
+
+.my-slider div.info{
+    background-image: url("../images/slider.info.bkg.png");
+    color:#ffffff;
+    padding:40px 15px 25px 15px;
+    max-width:330px;
+}
+.my-slider div.info h3{
+    margin-bottom: 35px;
+    text-align: center;
+}
+.my-slider div.info h1 a,
+.my-slider div.info h2 a,
+.my-slider div.info h3 a,
+.my-slider div.info h4 a,
+.my-slider div.info h5 a,
+.my-slider div.info h6 a{
+    font-weight:normal;
+    font-size: 24px;
+    color:#ffffff;
+    text-decoration: none;
+}
+.my-slider div.info p{
+    font-weight:normal;
+    font-size: 12px;
+    color:#ffffff;
+    text-align: center;
+}
+
+/* NAVIGATION */
+div.my-slider:hover a.next_navigation,
+div.my-slider:hover a.prev_navigation{
+    display: block;
+}
+a.next_navigation{
+    background-image: url("../images/next.slider.btn.png");
+    display: none;
+    height:49px;
+    margin:-50px 0px 50px 950px;
+    overflow: hidden;
+    position:absolute;
+    text-indent: 50px;
+    width:49px;
+    z-index:101;
+}
+a.prev_navigation{
+    background-image: url("../images/prev.slider.btn.png");
+    display: none;
+    height:49px;
+    margin:-50px 0px 50px 900px;
+    overflow: hidden;
+    position:absolute;
+    text-indent: 50px;
+    width:49px;
+    z-index:101;
+}

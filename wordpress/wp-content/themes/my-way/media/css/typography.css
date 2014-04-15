@@ -1,0 +1,27 @@
+/* 
+    Document    : typography
+    Created on  : 29.08.2012, 17:16:33
+    Author      : myTheme
+    Version     : 0.0.1
+    Description : Css rules for typography.css
+    Author URI  : http://mythem.es
+*/
+
+div.hentry h1,
+div.hentry h2,
+div.hentry h3,
+div.hentry h4,
+div.hentry h5,
+div.hentry h6{
+    color:#3c3a3a;
+    font-weight: normal;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+
+div.hentry h1 { font-size: 30px; }
+div.hentry h2 { font-size: 24px; }
+div.hentry h3 { font-size: 20px; }
+div.hentry h4 { font-size: 18px; }
+div.hentry h5 { font-size: 14px; }
+div.hentry h6 { font-size: 12px; }

@@ -1,0 +1,119 @@
+/* 
+    Document    : blogging
+    Created on  : 09.07.2012, 20:38:49
+    Author      : myThemes
+    Version     : 0.0.1
+    Description : Css rules for templates: author.php, archive.php, category.php, index.php, tag.php
+    Author URI  : http://mythem.es
+*/
+
+div.breadcrumbs div.container,
+div.breadcrumbs div.container ul{
+    overflow: hidden;
+}
+div.hentry,
+div.hentry h2{
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+div.hentry *{
+    max-width: 100%;
+}
+div.container div.blogging div.hentry:first-child{
+    border-top:none;
+    padding-top: 0px;
+    margin-top:0px;
+}
+body.author div.container div.blogging div.hentry:first-child{
+    border-top:1px solid #f3f2f2;
+    padding-top: 40px;
+}
+div.container div.blogging div.hentry:first-child h2{
+    margin-top:0px;
+    padding-top: 0px;
+}
+div.container div.blogging div.hentry{
+    border-top:1px solid #f3f2f2;
+    margin-top: 20px; 
+    padding-bottom: 20px; 
+    padding-top: 10px; 
+}
+
+div.container div.my-projects .title-label.blog-title{
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom: 35px;
+}
+
+div.container div.my-projects div.pagination{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+div.grid_a div.my-projects .title-label.blog-title{
+    margin-left:0px;
+    margin-right:0px;
+    margin-bottom: 35px;
+}
+
+div.grid_a div.my-projects div.pagination{
+    margin-left:0px;
+    margin-right:0px;
+}
+
+div.container div.blogging div.blog-view:first-child{
+    border-top:none;
+}
+
+div.container div.blogging div.blog-view h2{
+    line-height:18px;
+    margin-bottom: 15px;
+}
+
+div.container div.blogging div.blog-view h2 a{
+    font-weight:normal;
+    font-size:18px;
+    text-decoration: none;
+}
+
+div.container h1.title-label.blog-title{
+    margin-top:30px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-bottom:20px;
+}
+
+ul.projects-categories{
+    margin-bottom:37px;
+    float:left;
+}
+
+ul.projects-categories li{
+    background-image: none !important;
+    border: 1px solid #f5f4f4;
+    padding:7px 11px !important;
+    margin: 0px 5px 0px 0px !important;
+    -moz-box-shadow:    0px 0px 3px 1px #F9F9F9;
+    -webkit-box-shadow: 0px 0px 3px 1px #F9F9F9;
+    box-shadow:         0px 0px 3px 1px #F9F9F9;
+}
+ul.projects-categories li.mytheme-bkg{
+    background-image: none;
+    border: none;
+    padding:8px 12px !important;
+}
+ul.projects-categories li a{
+    font-weight:300;
+    font-size:14px;
+    color:#666666;
+    text-decoration: none;
+}
+ul.projects-categories li.mytheme-bkg a{
+    color:#ffffff;
+}
+
+a.more-link{
+    text-decoration: none;
+}

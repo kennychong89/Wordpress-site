@@ -1,0 +1,76 @@
+/* 
+    Document    : header
+    Created on  : 18.07.2012, 11:57:16
+    Author      : myThemes
+    Version     : 0.0.2
+    Description : Css rules for header
+    Author URI  : http://mythem.es
+*/
+
+                                                                                /* TEXTURE */
+div.b.header div.b.header-texture {
+    background-position: top center;
+}
+
+div.topper-shadow{
+    background-image: url("../images/topper.shadow.png");
+    height:5px;
+}
+                                                                                /* SOCIAL */
+span.header-social-icons{
+    float:right;
+    margin-top:6px;
+    margin-right:10px;
+}
+
+span.header-social-icons a{
+    text-decoration: none;
+    opacity:0.5;
+    -moz-opacity:0.5;
+    filter:alpha(opacity=50);
+    margin-left: 1px;
+}
+
+span.header-social-icons a:hover{
+    opacity:1;
+    -moz-opacity:1;
+    filter:alpha(opacity=100);
+}
+
+span.header-social-icons a image{
+    border: none;
+}
+
+div.text-header-right{
+    font-weight:normal;
+    font-size: 8px;
+    color:#cdcdcd;
+    margin-top:12px;
+    float:right;
+}
+
+div.text-header-right a{
+    text-decoration: none;
+    color:#ffffff;
+}
+                                                                                /* LOGO  */
+div.logo{
+    text-align: center;
+	word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+div.logo a img{
+    border: none;
+}
+div.logo h1 a, div.logo p{ 
+    text-decoration: none;
+    color:#454545;
+}
+div.logo h1 a{ 
+    font-size:30px;
+}
+div.logo p {
+    font-size:12px; margin-top:0px;
+}

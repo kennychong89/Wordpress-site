@@ -1,0 +1,50 @@
+/* 
+    Document    : author
+    Created on  : 09.07.2012, 22:43:14
+    Author      : myThemes
+    Version     : 0.0.2
+    Description : Css rules for template author.php only for author box
+    Author URI  : http://mythem.es
+*/
+.author-header{ 
+    padding:8px 0px;
+}
+.author-header img.avatar{
+    padding:10px;
+    float:left;
+    margin:12px 25px 20px 0px;
+}
+.author-header ul{
+    padding-left: 25px;
+}
+.author-header ul li{
+    font-size: 18px;
+    font-weight: 300;
+    padding:12px 0px;
+    margin-left: 170px;
+}
+.author-header ul li.first-name.last-name{
+    text-transform: uppercase;
+    font-weight:600;
+}
+.author-header ul li.author-social{
+    padding:8px 0px;
+    height:28px;
+}
+.author-header ul li.author-social a{
+    width:28px;
+    height:28px;
+    display: inline-block;
+    margin-left:8px;
+}
+.author-header ul li.author-social a:first-child{
+    margin-left:0px;
+}
+
+p.author-info{
+    font-weight:300;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 20px;
+    color:#505151;
+}

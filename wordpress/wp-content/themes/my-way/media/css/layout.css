@@ -1,0 +1,184 @@
+/* 
+    Document   : layout
+    Created on : 09.05.2012, 11:02:37
+    Version    : 0.1.0
+    Author     : myThemes
+    Author URI : http://mythem.es
+    Description: 960 grid layout for WordPress themes powered by myThemes
+*/
+
+body { min-width: 1000px; }
+
+.container{
+    margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.container.m{
+    width: 1000px;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.container.l1012{
+    width: 1012px;
+    padding-left:0px;
+    padding-right:0px;
+}
+.container.l1028{
+    width: 1000px;
+    padding-left:14px;
+    padding-right:14px;
+    padding-top: 20px;
+}
+
+.b{ width:100%; }
+.fl{ float:left !important; }
+.fr{ float:right !important; }
+
+.grid_1_5, /* 1/5 */
+.grid_2_5, /* 2/5 */
+.grid_3_5, /* 3/5 */
+.grid_4_5, /* 4/5 */
+.grid_1_4, /* 1/4 */
+.grid_2_4, /* 2/4 */
+.grid_3_4, /* 3/4 */
+.grid_1_3, /* 1/3 */
+.grid_2_3, /* 2/3 */
+.grid_1_2, /* 1/2 */
+.grid_1_1, /*  1  */
+.grid_1{   /*  1  */
+    display: inline;
+	float: left;
+	margin-left: 10px;
+    margin-right: 10px;
+}
+
+.m.grid_1_5, /* 1/5 */
+.m.grid_2_5, /* 1/5 */
+.m.grid_3_5, /* 1/5 */
+.m.grid_4_5, /* 1/5 */
+.m.grid_1_4, /* 1/4 */
+.m.grid_2_4, /* 1/4 */
+.m.grid_3_4, /* 3/4 */
+.m.grid_1_3, /* 1/3 */
+.m.grid_2_3, /* 2/3 */
+.m.grid_1_2, /* 1/2 */
+.m.grid_1_1, /*  1  */
+.m.grid_1{   /*  1  */
+    display: inline;
+	float: left;
+	margin-left: 0px;
+    margin-right: 0px;
+}
+
+.container .grid_1_5{ width:172px; }
+.container .grid_2_5{ width:364px; }
+.container .grid_3_5{ width:556px; }
+.container .grid_4_5{ width:748px; }
+.container .grid_1_4{ width:220px; }
+.container .grid_1_3{ width:300px; }
+.container .grid_1_2, .container .grid_2_4{ width:460px; }
+.container .grid_2_3{ width:620px; }
+.container .grid_3_4{ width:700px; }
+.container .grid_1  { width:940px; }
+.container .grid_1_1{ width:940px; }
+
+.container .m.grid_2_3{ width:640px; }
+.container .m.grid_3_4{ width:720px; }
+.container .m.grid_1  { width:960px; }
+.container .m.grid_1_1{ width:960px; }
+
+.grid_a,
+.grid_b{
+    display: inline;
+	float: left;
+	margin-left: 20px;
+    margin-right: 20px;
+}
+
+.grid_a.m,.grid_a { width:690px; }
+.grid_b { width:230px; }
+
+.container .grid_a div .grid_1_3,
+.container .grid_a div .grid_2_3,
+.container .grid_a div .grid_1_4,
+.container .grid_a div .grid_2_4,
+.container .grid_a div .grid_3_4{ margin-left: 18px; margin-right:0px; }
+
+.container .grid_a div .grid_1_2,
+.container .grid_a div .grid_1_5,
+.container .grid_a div .grid_2_5,
+.container .grid_a div .grid_3_5
+.container .grid_a div .grid_4_5{ margin-left: 20px;  margin-right:0px; }
+
+.container .grid_a div .column-row:first-child { margin-left:0px;  margin-right:0px; }
+.container .grid_a div .grid_1_2:first-child,
+.container .grid_a div .grid_1_3:first-child,
+.container .grid_a div .grid_1_4:first-child,
+.container .grid_a div .grid_1_5:first-child{ margin-left:0px;  margin-right:0px; }
+
+.container .grid_a .grid_1_1 { margin-left: 0px; margin-right: 0px; display: block; }
+.container .grid_a .grid_1_2 { width:335px; }
+
+.container .grid_a .grid_1_3 { width:218px; }
+.container .grid_a .grid_2_3 { width:454px; }
+
+.container .grid_a .grid_1_4 { width:159px; }
+.container .grid_a .grid_2_4 { width:336px; }
+.container .grid_a .grid_3_4 { width:513px; }
+
+.container .grid_a .grid_1_5 { width:122px; }
+.container .grid_a .grid_2_5 { width:264px; }
+.container .grid_a .grid_3_5 { width:406px; }
+.container .grid_a .grid_4_5 { width:548px; }
+
+div.grid_1 .mytheme_sc_columns_row .grid_1_5,
+div.grid_1 .mytheme_sc_columns_row .grid_1_4,
+div.grid_1 .mytheme_sc_columns_row .grid_1_3,
+div.grid_1 .mytheme_sc_columns_row .grid_1_2{
+    margin-left:20px;
+    margin-right:0px;
+}
+
+div.grid_1 .mytheme_sc_columns_row .grid_1_5:first-child,
+div.grid_1 .mytheme_sc_columns_row .grid_1_4:first-child,
+div.grid_1 .mytheme_sc_columns_row .grid_1_3:first-child,
+div.grid_1 .mytheme_sc_columns_row .grid_1_2:first-child{
+    margin-left:0px;
+    margin-right:0px;
+}
+
+/* CLEAR ELEMENTS */
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix:before,
+.clearfix:after {
+	content: "\0020";
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+    clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+	zoom: 1;
+}

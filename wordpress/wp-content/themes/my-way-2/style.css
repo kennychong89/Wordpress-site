@@ -1,0 +1,126 @@
+/*  
+Theme Name: my way
+Theme URI: http://mythem.es/item/my-way-premium/my-way-free/
+Description: Free WordPress theme developed by myThem.es. Theme features: Original and clean design, custom menus, social media ready, custom options to brand your website, custom background, unlimited color options, widgets ready, localization supported, custom page layout, easy admin panel. You gonna love it!
+Version: 3.0.13
+Tags: white, light, two-columns, right-sidebar, left-sidebar, fixed-width, theme-options, custom-background, custom-colors, custom-menu, featured-images, threaded-comments, holiday
+Author: myThem.es
+Author URI: http://mythem.es
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+
+My Way Free WordPress Theme, Copyright 2010 myThem.es
+My Way Free WordPress Theme is distributed under the terms of the GNU GPL
+
+                     ________________
+                    |_____    _______|
+     ___ ___ ___   __ __  |  |  __       ____   ___ ___ ___       ____   ____ 
+    |   |   |   | |_ |  | |  | |  |___  |  __| |   |   |   |     |  __| |  __|
+    |   |   |   |  | |  | |  | |  __  | |  __| |   |   |   |  _  |  __| |__  |
+    |___|___|___|   |  |  |__| |_ ||_ | |____| |___|___|___| |_| |____| |____|   
+                    |_|
+
+
+*/
+/* INCLUDE ADDITIONAL FONT FAMILY */
+@import url('http://fonts.googleapis.com/css?family=PT+Sans');
+
+/* GENERAL CSS */
+@import url( 'media/css/reset.css' );
+@import url( 'media/css/layout.css' );
+
+
+/* INCLUDE ADDITIONAL CSS */
+@import url( 'media/css/main.css' );
+@import url( 'media/css/extra-shortcodes.css');
+@import url( 'media/css/header.css' );
+@import url( 'media/css/footer.css' );
+@import url( 'media/css/menu.css' );
+@import url( 'media/css/slideshow.css' );
+@import url( 'media/css/single.css' );
+@import url( 'media/css/author.css' );
+@import url( 'media/css/blogging.css' );
+@import url( 'media/css/sidebar.css' );
+@import url( 'media/css/typography.css' );
+
+/* BUDDY PRESS */
+@import url( 'media/bp/bp.css' );
+
+body{
+    color:#6e6d6d;
+    font-weight: 300;
+    font-size: 13px;
+    font-family: "PT Sans",sans-serif;
+}
+p{
+    color:#6e6d6d;
+    font-weight:300;
+    font-size: 13px;
+    line-height:18px;
+    margin: 7px 0px 10px 0px;
+    /* text-indent: 40px; */
+}
+/* WORDPRESS CLASSES */
+div.b.my-page div.container{
+   min-height: 350px; 
+}
+.alignleft{
+    float:left;
+    margin:0px 15px 10px 0px;
+}
+.alignright{
+    float:right;
+    margin:0px 0px 10px 15px;
+}
+.aligncenter{
+    clear:both;
+    display: block;
+    margin-left:auto !important;
+    margin-right:auto !important;
+}
+.hidden{
+    display:none;
+}
+
+                                                                                /* NOT USED */
+.wp-caption {}
+.wp-caption-text {}
+.sticky {}
+.gallery-caption{}
+.bypostauthor {}
+
+pre{
+    background-color: #fdfdfd;
+    border: 1px solid #f5f5f5;
+    color: #111111;
+    padding: 15px;
+}
+
+code{
+    background-color: #f5f5f5;
+    padding: 0px 5px;
+    color: #dd0000;
+    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+table{
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table td{
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #f0f0f0;
+}
+
+body table th{
+    background-color:#fcfcfc;
+    border: 1px solid #f0f0f0;
+    padding: 15px 10px;
+}
